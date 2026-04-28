@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+
+# Model weights (too large for GitHub)
+models/*.pt
+models/*.gguf
+models/*.bin
+models/*.safetensors
+
+# Vector databases (regeneratable)
+db/
+food_db/
+chroma_db/
+
+# Large generated JSON
+gung_text_chromadb.json
+
+# Training artifacts
+models/korean_food_detection_v12/
+models/korean_palace_detection_v12/
+runs/
+
+# Test images
+test_images/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
